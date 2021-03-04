@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    font-size: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+time{
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #113745;
+}
+.components-heading h2{
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #113745;
+}
+.category-href{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #113745;
+}
+.large-article-title {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #113745;
+}
+.media-article-title{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #113745;
+}
+.small-article-title{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #113745;
+}
+.btn-primary{
+    background-color:  #113745;
+    border-color: #113745;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: normal;
+    opacity: 1;
+    transition: all ease-in .2s;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #113745;
+    border-color: #113745;
+}
+.btn-primary:hover{
+    opacity: 0.8;
+    background-color:  #113745;
+    border-color: #113745;
+}
+.form-control:focus {
+    color: #113745;
+    background-color: #fff;
+    border-color: #113745;
+    outline: 0;
+    box-shadow: none;
+}
+/* menu part */
+#navbarPart{
+    height: 70px;
+    width: 100%;
+}
+#menuPart ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+}
+#menuPart ul li a:hover{
+    text-decoration: underline;
+}
+#navbarPart .navbar-brand img{
+    width: 150px;
+    height: 70px;
+}
+/* banner part */
+#bannerPart .carousel-inner .carousel-item img{
+    height: 250px;
+}
+#adsBanner{
+    margin: 30px 0;
+}
+#adsBanner img{
+    width: 1000px;
+    height: 130px;
+}
+/* lastest blog post */
+#latestBlogPost{
+    margin: 40px 0;
+} 
+#latestBlogPost .components-heading{
+    margin-bottom: 20px;
+} 
+#blog-large-content a{
+    text-decoration: none;
+}
+#blog-large-content .card-text{
+    margin: 20px 0;
+}
+/* email newsletter */
+.email-newsletter .card-body{
+    padding: 1rem;
+    background-color: #113745;
+    color: #fff;
+    border-radius: 5px;
+}
+.email-newsletter .card-body p{
+    margin: 15px 5px;
+    color: #fff;
+}
+.email-newsletter .btn-primary{
+    border: 1px solid #fff;
+}
+/* featured post */
+#featuredPost .components-heading{
+    margin: 20px 0;
+}
+#featuredPost .media{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+#featuredPost .viewAllPost a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #113745;
+}
