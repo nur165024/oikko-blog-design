@@ -156,10 +156,34 @@ time{
 }
 #featuredPost .media{
     border-bottom: 1px solid #ddd;
-    margin-bottom: 10px;
+    margin: 10px 0;
+}
+#featuredPost .media a{
+    display: block;
+    margin-bottom: 20px;
 }
 #featuredPost .viewAllPost a{
     font-size: 16px;
     font-weight: 600;
     color: #113745;
+}
+/* popular post */
+#popularPost{
+    margin: 40px 0;
+}
+#popularPost a{
+    text-decoration: none;
+}
+#popularPost .card-text{
+    margin: 10px 0;
+}
+.readMore{
+    color: #113745;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: normal;
+}
+.readMore:hover{
+    color: #113745;
+    text-decoration: underline !important;
 }
