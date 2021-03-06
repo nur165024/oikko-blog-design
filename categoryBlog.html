@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oikko blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/f9ba9b1f98.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg" id="navbarPart">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPart">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="menuPart">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Category
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="categoryBlog.html">Women’s Plaza</a>
+                            <a class="dropdown-item" href="categoryBlog.html">Men’s Plaza</a>
+                            <a class="dropdown-item" href="categoryBlog.html">Kids’ Plaza</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">shop now!</a>
+                    </li>
+                </ul>
+                
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search Blog...">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar -->
+    <!-- breadcrumb -->
+    <section id="breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav>
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Category Name</li>
+                        </ol>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb -->
+    <!-- popular post -->
+    <section id="popularPost">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="components-heading">
+                        <h2>Category Posts</h2>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <!-- blog content -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card" id="popularPost">
+                                <a href="javascript:void(0);">
+                                    <img class="card-img-top" src="image/latest-post.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <time>Nov 02, 2020</time> | <a class="category-href" href="#">ELECTRONICS</a>
+                                        <br>
+                                        <a class="media-article-title" href="#">Best deals of the week</a>
+                                        <p>By <strong>Jennifer Manfrin</strong></p>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a class="readMore" href="javascript:void(0);">Read More</a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" id="popularPost">
+                                <a href="javascript:void(0);">
+                                    <img class="card-img-top" src="image/latest-post.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <time>Nov 02, 2020</time> | <a class="category-href" href="#">ELECTRONICS</a>
+                                        <br>
+                                        <a class="media-article-title" href="#">Best deals of the week</a>
+                                        <p>By <strong>Jennifer Manfrin</strong></p>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a class="readMore" href="javascript:void(0);">Read More</a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" id="popularPost">
+                                <a href="javascript:void(0);">
+                                    <img class="card-img-top" src="image/latest-post.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <time>Nov 02, 2020</time> | <a class="category-href" href="#">ELECTRONICS</a>
+                                        <br>
+                                        <a class="media-article-title" href="#">Best deals of the week</a>
+                                        <p>By <strong>Jennifer Manfrin</strong></p>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a class="readMore" href="javascript:void(0);">Read More</a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" id="popularPost">
+                                <a href="javascript:void(0);">
+                                    <img class="card-img-top" src="image/latest-post.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <time>Nov 02, 2020</time> | <a class="category-href" href="#">ELECTRONICS</a>
+                                        <br>
+                                        <a class="media-article-title" href="#">Best deals of the week</a>
+                                        <p>By <strong>Jennifer Manfrin</strong></p>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a class="readMore" href="javascript:void(0);">Read More</a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" id="popularPost">
+                                <a href="javascript:void(0);">
+                                    <img class="card-img-top" src="image/latest-post.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <time>Nov 02, 2020</time> | <a class="category-href" href="#">ELECTRONICS</a>
+                                        <br>
+                                        <a class="media-article-title" href="#">Best deals of the week</a>
+                                        <p>By <strong>Jennifer Manfrin</strong></p>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a class="readMore" href="javascript:void(0);">Read More</a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" id="popularPost">
+                                <a href="javascript:void(0);">
+                                    <img class="card-img-top" src="image/latest-post.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <time>Nov 02, 2020</time> | <a class="category-href" href="#">ELECTRONICS</a>
+                                        <br>
+                                        <a class="media-article-title" href="#">Best deals of the week</a>
+                                        <p>By <strong>Jennifer Manfrin</strong></p>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a class="readMore" href="javascript:void(0);">Read More</a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- pagination -->
+                        <div class="col-md-12">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                  <li class="page-item">
+                                    <a class="page-link" href="javascript:void(0);" aria-label="Previous">
+                                      <span aria-hidden="true">&laquo;</span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                  </li>
+                                  <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+                                  <li class="page-item active"><a class="page-link" href="javascript:void(0);">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="javascript:void(0);" aria-label="Next">
+                                      <span aria-hidden="true">&raquo;</span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </nav>
+                        </div>
+                        <!-- pagination -->
+                    </div>
+                    <!-- blog content -->
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <!-- category blog search -->
+                        <div class="col-md-12" id="categoryBlogSearch">
+                            <form class="form-inline my-2 my-lg-0">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search Blog...">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- category blog search -->
+                        <!-- category list -->
+                        <div class="col-md-12">
+                            <div class="footerComponent">
+                                <h3>Categories</h3>
+                            </div>
+                            <ul class="categoryLink">
+                                <li>
+                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <a href="#">Women’s Plaza</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <a href="#">Men’s Plaza</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <a href="#">Kids’ Plaza</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <a href="#">Men’s Plaza</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- category list -->
+                    </div>
+                    <!-- latest post -->
+                    <div class="row" id="featuredPost">
+                        <!-- latest post -->
+                        <div class="col-md-12">
+                            <div class="footerComponent">
+                                <h3>Latest Post</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="media">
+                                <img class="mr-3" style="height: 80px;width: 100px;" src="image/latest-post.jpg" alt="image">
+                                <div class="media-body">
+                                    <time>Nov 02, 2020</time>
+                                    <br>
+                                    <a class="small-article-title" href="javascript:void(0);">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="media">
+                                <img class="mr-3" style="height: 80px;width: 100px;" src="image/latest-post.jpg" alt="image">
+                                <div class="media-body">
+                                    <time>Nov 02, 2020</time>
+                                    <br>
+                                    <a class="small-article-title" href="javascript:void(0);">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="media">
+                                <img class="mr-3" style="height: 80px;width: 100px;" src="image/latest-post.jpg" alt="image">
+                                <div class="media-body">
+                                    <time>Nov 02, 2020</time>
+                                    <br>
+                                    <a class="small-article-title" href="javascript:void(0);">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="viewAllPost viewallCategory">
+                            <a href="javascript:void(0);">View All Posts</a>
+                        </div>
+                        <!-- latest post -->
+                    </div>
+                    <!-- latest post -->
+                    <!--  -->
+                    <div class="row" id="featuredPost">
+                        <!-- latest post -->
+                        <div class="col-md-12">
+                            <div class="footerComponent">
+                                <h3>Popular Post</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="media">
+                                <img class="mr-3" style="height: 80px;width: 100px;" src="image/latest-post.jpg" alt="image">
+                                <div class="media-body">
+                                    <time>Nov 02, 2020</time>
+                                    <br>
+                                    <a class="small-article-title" href="javascript:void(0);">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="media">
+                                <img class="mr-3" style="height: 80px;width: 100px;" src="image/latest-post.jpg" alt="image">
+                                <div class="media-body">
+                                    <time>Nov 02, 2020</time>
+                                    <br>
+                                    <a class="small-article-title" href="javascript:void(0);">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="media">
+                                <img class="mr-3" style="height: 80px;width: 100px;" src="image/latest-post.jpg" alt="image">
+                                <div class="media-body">
+                                    <time>Nov 02, 2020</time>
+                                    <br>
+                                    <a class="small-article-title" href="javascript:void(0);">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="viewAllPost viewallCategory">
+                            <a href="javascript:void(0);">View All Posts</a>
+                        </div>
+                        <!-- latest post -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- popular post -->
+    <!-- footer part -->
+    <section id="footerPart">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="footerComponent">
+                                <h3>Categories : </h3>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="footerLink">
+                                <li>
+                                    <a href="javascript:void(0);">Women’s Plaza</a>                            
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Men’s Plaza</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Kids’ Plaza</a>
+                                </li>
+                                <li>    
+                                    <a href="javascript:void(0);">Men’s Plaza</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="footerComponent">
+                                <h3>Links : </h3>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="footerLink">
+                                <li>
+                                    <a target="_black" href="https://www.oikko.com.bd/">Link</a>                            
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Terms & Conditions</a>
+                                </li>
+                                <li>    
+                                    <a href="javascript:void(0);">About Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="footerComponent">
+                                <h3>Our Partners : </h3>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="footerLink">
+                                <li>
+                                    <a href="javascript:void(0);">Women’s Plaza</a>                            
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Men’s Plaza</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Kids’ Plaza</a>
+                                </li>
+                                <li>    
+                                    <a href="javascript:void(0);">Men’s Plaza</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer part -->
+    <!-- copyright part -->
+    <section id="copyRight">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <a class="oikkolink" target="_blank" href="https://www.oikko.com.bd/">&copy; oikko.com.bd; 2021</a>
+                </div>
+                <div class="col-md-2 text-right">
+                    <div class="footerCopyrightSocialIcon">
+                        <ul>
+                            <li>
+                                <a target="_blank" href="javascript:void(0);">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="javascript:void(0);">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="javascript:void(0);">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="javascript:void(0);">
+                                    <i class="fa fa-rss" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- copyright part -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

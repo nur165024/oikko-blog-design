@@ -22,6 +22,9 @@ time{
     text-decoration: none;
     color: #113745;
 }
+ul li {
+    list-style-type: none;
+}
 .components-heading h2{
     font-size: 32px;
     font-weight: 600;
@@ -200,7 +203,6 @@ time{
     margin-bottom: 25px;
 }
 .footerLink li {
-    list-style-type: none;
     margin-bottom: 5px;
 }
 .footerLink li a{
@@ -221,7 +223,6 @@ time{
     line-height: 30px;
 }
 .footerCopyrightSocialIcon ul li{
-    list-style-type: none;
     float: left;
     margin: 0 10px;
 }
@@ -234,3 +235,64 @@ time{
 .footerCopyrightSocialIcon ul li a:hover{ 
     color: #113745;
 }
+/* category part */
+#breadcrumb{
+    margin: 20px 0;
+}
+.breadcrumb{
+    margin-bottom: 0;
+    background-color: #113745;
+}
+.breadcrumb .breadcrumb-item.active{
+    color: #fff;
+}
+.breadcrumb li a{
+    color: #fff;
+}
+.pagination{
+    text-align: right !important;
+    position: absolute;
+    right: 15px;
+    bottom: -20px;
+}
+.page-link{
+    color: #000;
+}
+.page-link:focus{
+    box-shadow: none !important;
+}
+.page-item.active .page-link{
+    background-color: #113745;
+    border-color: #113745;
+}
+#categoryBlogSearch{
+    margin-bottom: 25px;
+}
+.categoryLink{
+    margin-bottom: 25px;
+}
+.categoryLink li{
+    margin-bottom: 5px;
+}
+.categoryLink li a{
+    color: #113745;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all ease-in .2s;
+}
+.categoryLink li a:hover{
+    text-decoration: underline !important;
+}
+.viewallCategory{
+    margin-bottom: 25px;
+    text-align: right;
+    position: relative;
+    right: -70%;
+}
+.viewallCategory a{
+    transition: all ease-in .2s;
+}
+.viewallCategory a:hover{
+    text-decoration: underline !important;
+}
+/* category part */
