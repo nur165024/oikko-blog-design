@@ -25,6 +25,22 @@ time{
 ul li {
     list-style-type: none;
 }
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.dropdown{
+    transition: all ease-in .3s;
+}
+.dropdown:hover .dropdown-menu{
+    text-decoration: none !important;
+    display: block !important;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 30px;
+}
 .components-heading h2{
     font-size: 32px;
     font-weight: 600;
@@ -99,8 +115,13 @@ ul li {
 }
 /* menu part */
 #navbarPart{
-    height: 70px;
+    position: fixed;
     width: 100%;
+    height: 70px;
+    top: 0;
+    z-index: 9999;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
 }
 #menuPart ul li a{
     font-size: 16px;
@@ -116,6 +137,10 @@ ul li {
     height: 70px;
 }
 /* banner part */
+.carousel {
+    position: relative;
+    margin-top: 70px;
+}
 #bannerPart .carousel-inner .carousel-item img{
     height: 250px;
 }
@@ -181,14 +206,19 @@ ul li {
     margin: 10px 0;
 }
 .readMore{
-    color: #113745;
+    color: #fff;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: normal;
+    background-color: #113745;
+    padding: 5px;
+    opacity: 1;
+    border-radius: 3px;
+    transition: all ease-in .2s;
 }
 .readMore:hover{
-    color: #113745;
-    text-decoration: underline !important;
+    color: #fff;
+    opacity: 0.8;
 }
 /* footer part */
 #footerPart{
@@ -213,7 +243,7 @@ ul li {
 }
 /* copy right part */
 #copyRight{
-    background-color: #171717;
+    background-color: #1b4c5d;
     padding: 5px 0;
 }
 #copyRight .oikkolink{
@@ -237,11 +267,12 @@ ul li {
 }
 /* category part */
 #breadcrumb{
-    margin: 20px 0;
+    margin: 80px 0 20px 0;
 }
 .breadcrumb{
     margin-bottom: 0;
     background-color: #113745;
+    padding: .4rem 1rem !important;
 }
 .breadcrumb .breadcrumb-item.active{
     color: #fff;
