@@ -277,8 +277,14 @@ ul li {
 .breadcrumb .breadcrumb-item.active{
     color: #fff;
 }
+.breadcrumb li{
+    font-size: 13px;
+    font-weight: 400;
+}
 .breadcrumb li a{
     color: #fff;
+    font-size: 13px;
+    font-weight: 400;
 }
 .pagination{
     text-align: right !important;
@@ -327,3 +333,36 @@ ul li {
     text-decoration: underline !important;
 }
 /* category part */
+/* blog details */
+#blogDetails p{
+    padding: 20px 0;
+}
+#blogDetails strong{
+    padding: 15px 0;
+}
+#blogDetails .components-heading h2{
+    padding: 10px 0;
+}
+.postTitleLink{
+    position: fixed;
+
+}
+.postTitleLink li a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #113745;
+    width: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.details{
+    width: 50%;
+}
+.details ul li a{
+    color: #000;
+    transition: all ease-in .2s;
+}
+.details ul li a:hover{
+    transform: rotate(10deg);
+}
