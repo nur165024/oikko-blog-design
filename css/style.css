@@ -187,3 +187,50 @@ time{
     color: #113745;
     text-decoration: underline !important;
 }
+/* footer part */
+#footerPart{
+    padding: 50px 0;
+    background-color: #113745;
+    color: #fff;
+}
+.footerComponent h3{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: normal;
+    margin-bottom: 25px;
+}
+.footerLink li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.footerLink li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+/* copy right part */
+#copyRight{
+    background-color: #171717;
+    padding: 5px 0;
+}
+#copyRight .oikkolink{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 30px;
+}
+.footerCopyrightSocialIcon ul li{
+    list-style-type: none;
+    float: left;
+    margin: 0 10px;
+}
+.footerCopyrightSocialIcon ul li a{ 
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+    transition: all ease-in .2s;
+}
+.footerCopyrightSocialIcon ul li a:hover{ 
+    color: #113745;
+}
