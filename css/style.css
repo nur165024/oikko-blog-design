@@ -343,9 +343,10 @@ ul li {
 #blogDetails .components-heading h2{
     padding: 10px 0;
 }
-.postTitleLink{
+.postTitleLink {
     position: fixed;
-
+    width: 9%;
+    z-index: 9999;
 }
 .postTitleLink li a{
     display: block;
@@ -353,11 +354,7 @@ ul li {
     font-size: 16px;
     font-weight: 400;
     color: #113745;
-    width: 50%;
     font-family: 'Roboto Condensed', sans-serif;
-}
-.details{
-    width: 50%;
 }
 .details ul li a{
     color: #000;
@@ -365,6 +362,15 @@ ul li {
 }
 .details ul li a:hover{
     transform: rotate(10deg);
+}
+#commentPart{
+    margin: 20px 0;
+}
+#commentList{
+    margin-top: 25px;
+}
+.media{
+    margin-bottom: 15px;
 }
 /*  faq secton  */
 #accordion{
