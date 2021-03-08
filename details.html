@@ -20,8 +20,8 @@
             <a class="navbar-brand" href="index.html">
                 <img src="image/logo.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPart">
-                <span class="navbar-toggler-icon"></span>
+            <button style="font-size: 25px;color: #113745;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPart" aria-controls="menuPart" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
             </button>
         
             <div class="collapse navbar-collapse" id="menuPart">
@@ -30,7 +30,7 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="details.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Category
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -40,13 +40,13 @@
                         </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="details.html">About us</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link" href="details.html">Contact us</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">shop now!</a>
+                        <a target="_blank" class="nav-link" href="https://www.oikko.com.bd/">shop now!</a>
                     </li>
                 </ul>
                 
@@ -54,7 +54,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search Blog...">
                         <div class="input-group-append">
-                            <button class="btn btn-primary" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            <button class="btn btn-primary" type="button">Search</button>
                         </div>
                     </div>
                 </form>
@@ -83,7 +83,49 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-sm-12 col-12 d-md-none d-block">
+                    <div class="row">
+                        <!-- category blog search -->
+                        <div class="col-12" id="categoryBlogSearch">
+                            <form method="POST" action="" class="my-2">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search Blog...">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- category blog search -->
+                        <!-- category list -->
+                        <div class="col-12">
+                            <div class="footerComponent">
+                                <h3>Categories</h3>
+                            </div>
+                            <ul class="categoryLink">
+                                <li>
+                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <a href="#">Women’s Plaza</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <a href="#">Men’s Plaza</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <a href="#">Kids’ Plaza</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <a href="#">Men’s Plaza</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- category list -->
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 d-none d-lg-block">
                     <div class="postTitleLink">
                         <ul>
                             <li>
@@ -125,7 +167,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+
+                <div class="col-lg-6 col-md-6">
                     <div class="row">
                         <div class="col-md-12" id="blogDetails">
                             <div class="components-heading">
@@ -173,8 +216,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="row">
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="row d-md-block d-none">
                         <!-- category blog search -->
                         <div class="col-md-12" id="categoryBlogSearch">
                             <form class="form-inline my-2 my-lg-0">
@@ -330,8 +374,8 @@
     <section id="commentPart">
         <div class="container">
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
+                <div class="col-lg-2 d-none d-lg-block"></div>
+                <div class="col-lg-8 col-md-12">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="components-heading">
@@ -366,6 +410,7 @@
                             <div class="components-heading">
                                 <h2>Comment : (0)</h2>
                             </div>
+                            <hr>
                         </div>
                         <div class="col-md-12">
                             <div class="media">
@@ -407,16 +452,16 @@
                         <div class="col-md-12">
                             <ul class="footerLink">
                                 <li>
-                                    <a href="javascript:void(0);">Women’s Plaza</a>                            
+                                    <a href="details.html">Women’s Plaza</a>                            
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);">Men’s Plaza</a>
+                                    <a href="details.html">Men’s Plaza</a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);">Kids’ Plaza</a>
+                                    <a href="details.html">Kids’ Plaza</a>
                                 </li>
                                 <li>    
-                                    <a href="javascript:void(0);">Men’s Plaza</a>
+                                    <a href="details.html">Men’s Plaza</a>
                                 </li>
                             </ul>
                         </div>
@@ -435,13 +480,16 @@
                                     <a target="_black" href="https://www.oikko.com.bd/">Link</a>                            
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);">Contact</a>
+                                    <a href="details.html">Contact</a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);">Terms & Conditions</a>
+                                    <a href="details.html">Terms & Conditions</a>
                                 </li>
                                 <li>    
-                                    <a href="javascript:void(0);">About Us</a>
+                                    <a href="details.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html">FAQ</a>
                                 </li>
                             </ul>
                         </div>
@@ -457,16 +505,16 @@
                         <div class="col-md-12">
                             <ul class="footerLink">
                                 <li>
-                                    <a href="javascript:void(0);">Women’s Plaza</a>                            
+                                    <a href="details.html">Women’s Plaza</a>                            
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);">Men’s Plaza</a>
+                                    <a href="details.html">Men’s Plaza</a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);">Kids’ Plaza</a>
+                                    <a href="details.html">Kids’ Plaza</a>
                                 </li>
                                 <li>    
-                                    <a href="javascript:void(0);">Men’s Plaza</a>
+                                    <a href="details.html">Men’s Plaza</a>
                                 </li>
                             </ul>
                         </div>
@@ -480,29 +528,29 @@
     <section id="copyRight">
         <div class="container">
             <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-9 col-12">
                     <a class="oikkolink" target="_blank" href="https://www.oikko.com.bd/">&copy; oikko.com.bd-2018-2021</a>
                 </div>
-                <div class="col-md-2 text-right">
+                <div class="col-md-3 col-12">
                     <div class="footerCopyrightSocialIcon">
                         <ul>
                             <li>
-                                <a target="_blank" href="javascript:void(0);">
+                                <a target="_blank" href="details.html">
                                     <i class="fa fa-facebook" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="javascript:void(0);">
+                                <a target="_blank" href="details.html">
                                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="javascript:void(0);">
+                                <a target="_blank" href="details.html">
                                     <i class="fa fa-twitter" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="javascript:void(0);">
+                                <a target="_blank" href="details.html">
                                     <i class="fa fa-rss" aria-hidden="true"></i>
                                 </a>
                             </li>

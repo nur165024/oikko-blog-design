@@ -52,6 +52,12 @@
         letter-spacing: normal;
         color: #113745;
     }
+    .viewallCategory {
+        margin-bottom: 25px;
+        text-align: right;
+        position: relative;
+        right: -60%;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -98,6 +104,12 @@
     }
     #categoryBlogSearch {
         margin-bottom: 0;
+    }
+    .viewallCategory {
+        margin-bottom: 25px;
+        text-align: right;
+        position: relative;
+        right: -60%;
     }
 }
 
@@ -167,6 +179,10 @@
     }
     #categoryBlogSearch {
         margin-bottom: 0;
+    }
+    .email-newsletter .card-body p {
+        margin: 0;
+        color: #fff;
     }
 }
 
@@ -271,6 +287,6 @@
         margin-bottom: 25px;
         text-align: right;
         position: relative;
-        right: -60%;
+        left: 0;
     }
 }
