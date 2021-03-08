@@ -1,24 +1,261 @@
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+    .dropdown{
+        transition: all ease-in .3s;
+    }
+    .dropdown:hover .dropdown-menu{
+        text-decoration: none !important;
+        display: block !important;
+    }
 }
 
 /* // Large devices (desk1tops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-    
+    .dropdown{
+        transition: all ease-in .3s;
+    }
+    .dropdown:hover .dropdown-menu{
+        text-decoration: none !important;
+        display: block !important;
+    }
+    #menuPart .navbar-nav{
+        position: relative;
+        left: 7%;
+    }
+    #menuPart ul li a {
+        font-size: 14px;
+    }
+    .large-article-title {
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
+    .small-article-title {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
+    .media-article-title {
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-
+    #menuPart{
+        position: relative;
+        background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+        top: 20px;
+        padding: 0px 10px;
+    }
+    #bannerPart .carousel-inner .carousel-item img {
+        height: 190px;
+    }
+    #adsBanner img {
+        width: 1000px;
+        height: 105px;
+    }
+    .large-article-title {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
+    .small-article-title {
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
+    .media-article-title {
+        font-size: 19px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-
+    #menuPart{
+        position: relative;
+        background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+        top: 20px;
+        padding: 0px 10px;
+    }
+    #bannerPart .carousel-inner .carousel-item img {
+        height: 160px;
+    }
+    #adsBanner img {
+        width: 1000px;
+        height: 85px;
+    }
+    #copyRight{
+        text-align: center;
+    }
+    .footerCopyrightSocialIcon ul {
+        float: left;
+        margin: 0 10px;
+        position: relative;
+        left: 47%;
+        transform: translateX(-47%);
+    }
+    .large-article-title {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
+    .small-article-title {
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
+    .media-article-title {
+        font-size: 19px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
+    #featuredPost .viewAllPost a{
+        margin-left: 15px;
+    }
+    #featuredPost .media img{
+        margin-bottom: 16px;
+    }
+    .footerComponent h3 {
+        margin-top: 25px;
+    }
+    .email-newsletter{
+        margin-top: 25px;
+    }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-
+    #menuPart{
+        position: relative;
+        background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+        top: 20px;
+        padding: 0px 10px;
+    }
+    #bannerPart .carousel-inner .carousel-item img {
+        height: 130px;
+    }
+    #adsBanner img {
+        width: 1000px;
+        height: 65px;
+    }
+    .components-heading h2 {
+        font-size: 28px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
+    .large-article-title {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
+    .small-article-title {
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
+    .media-article-title {
+        font-size: 19px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #113745;
+    }
+    .btn-primary {
+        background-color: #113745;
+        border-color: #113745;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: normal;
+        opacity: 1;
+        transition: all ease-in .2s;
+    }
+    .readMore {
+        color: #fff;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: normal;
+        background-color: #113745;
+        padding: 5px;
+        opacity: 1;
+        border-radius: 3px;
+        transition: all ease-in .2s;
+    }
+    #featuredPost .viewAllPost a{
+        margin-left: 15px;
+    }
+    #featuredPost .media img{
+        margin-bottom: 16px;
+    }
+    .footerComponent h3 {
+        margin-top: 25px;
+    }
+    #copyRight{
+        text-align: center;
+    }
+    .footerCopyrightSocialIcon ul {
+        float: left;
+        margin: 0 10px;
+        position: relative;
+        left: 47%;
+        transform: translateX(-47%);
+    }
+    .email-newsletter{
+        margin-top: 25px;
+    }
 }
