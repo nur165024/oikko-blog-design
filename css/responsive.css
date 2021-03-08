@@ -96,6 +96,9 @@
         letter-spacing: normal;
         color: #113745;
     }
+    #categoryBlogSearch {
+        margin-bottom: 0;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -161,6 +164,9 @@
     }
     .email-newsletter{
         margin-top: 25px;
+    }
+    #categoryBlogSearch {
+        margin-bottom: 0;
     }
 }
 
@@ -257,5 +263,14 @@
     }
     .email-newsletter{
         margin-top: 25px;
+    }
+    #categoryBlogSearch {
+        margin-bottom: 0;
+    }
+    .viewallCategory {
+        margin-bottom: 25px;
+        text-align: right;
+        position: relative;
+        right: -60%;
     }
 }
